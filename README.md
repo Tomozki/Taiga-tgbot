@@ -13,10 +13,10 @@
     </h3>
 <p align="center">
     <b> A Support Group and ready-to-use running instance of this bot can be found on Telegram <br><br>
-<a href="https://t.me/TaigaGremoryprobot"> <img src="https://img.shields.io/badge/TaigaGremory-Robot-blue?style=for-the-badge&logo=telegram" alt="Tomozaki" /> </a>       <a href="https://t.me/senseisupportgroup"> <img src="https://img.shields.io/badge/Telegram-Support-orange?style=for-the-badge&logo=telegram" alt="TSupport" /> </a> </b>
+<a href="https://t.me/Taigarobot"> <img src="https://img.shields.io/badge/Taiga-Robot-blue?style=for-the-badge&logo=telegram" alt="Tomozaki" /> </a>       <a href="https://t.me/senseisupportgroup"> <img src="https://img.shields.io/badge/Telegram-Support-orange?style=for-the-badge&logo=telegram" alt="TSupport" /> </a> </b>
 </p>
 <p align="center">
-  <img src="https://telegra.ph/file/21686212f726943a35b33.jpg"> 
+  <img src="https://telegra.ph/file/159385003a6198fe4f630.jpg"> 
 </p>
 
 
