@@ -10,15 +10,14 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 # PM Text
 pm_start_text: |
 
-  Hey! 👋 *{}* - I'm *Taiga Gremory*
+  Hey! 👋 *{}* - I'm *Taiga Aisaka*
   I can manage your group with lots of useful features, feel free to add me to your group.
 
 group_start_text: |
-  *ɪ ᴀᴍ ʀɪᴀꜱ ɢʀᴇᴍᴏʀʏ ᴀɴᴅ ɪ'ʟʟ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜ ꜰʀᴏᴍ ᴇᴠᴇʀʏᴛʜɪɴɢ*
-  Haven't slept Since :- `{}`
+  Heya, i'm *Taiga Aisaka*, PM me if you have any questions on *How to use me*!
 
 pm_about_text: |
-  Hey Darling I'm *Taiga Gremory*, a powerful group management bot built to help you manage your group easily.
+  Hey I'm *Taiga Aisaka*, a powerful group management bot built to help you manage your group easily.
 
   ❑ I can restrict users.
   ❑ I can greet users with customizable welcome messages and even set a group's rules.
@@ -27,12 +26,11 @@ pm_about_text: |
   ❑ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
   ❑ I check for admins' permissions before executing any command and more stuffs
 
-  _TaigaGremory licensed under the GNU General Public License v3.0_
-  Click on button bellow to get basic help for Taiga Gremory Probot.
+  Click on button bellow to get basic help for Taiga Aisaka Probot.
 pm_about_admin_text: |
   *❑ Let's make your group bit effective now ❑*
 
-  Congragulations, Taiga Gremory Robot now ready to manage your group.
+  Congragulations, Taiga Aisaka Robot now ready to manage your group.
 
   *Admin Tools*
   Basic Admin tools help you to protect and powerup your group.
@@ -47,20 +45,20 @@ pm_about_notes_text: |
   ❑ You can save message/media/audio or anything as notes to get a note simply use # at the beginning of a word
   ❑ You can also set buttons for notes and filters (refer help menu)
 pm_about_support_text: |
-  *  Taiga Gremory Robot support chats *
+  *  Taiga Robot support chats *
   Join Support Group for see or report a problem on Sensei Support Group.
   Also you can ask anything in Support Group.
 pm_about_credit_text: |
-  Taiga Gremory Is A Powerful Anime Themed Bot For Managing Groups With Additional Features.
+  Taiga Aisaka Is A Powerful Bot For Managing Groups With Additional Features.
 
   ￫ Base Of [Saitama](https://github.com/AnimeKaizoku/SaitamaRobot).
 
-  ￫ Taiga Gremory Licensed Under The GNU (General Public License v3.0)
+  ￫ Taiga Aisaka Licensed Under The GNU (General Public License v3.0)
 
-  ￫ Thanks to all the devs for helping
+  ￫ Thanks to all the devs for helping.
 
   _If You Have Any Question About Taiga, let Us Know At Support Chat
-  Here's Developers Making And Give Inspiration For Made The Taiga Gremory Robot_
+  Here's Developers Making And Give Inspiration For Made The Taiga Robot_
 pm_help_text: |
   You can choose an option below, by clicking a button.
 
