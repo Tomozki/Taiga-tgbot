@@ -30,6 +30,7 @@ from TaigaRobot import (
     TIGERS,
     WOLVES,
     sw,
+    LOGGER,
 )
 from TaigaRobot.modules.helper_funcs.misc import article
 
@@ -60,7 +61,7 @@ def inlinequery(update: Update, _) -> None:
         {
             "title": "About",
             "description": "Know about ",
-            "message_text": "Click the button below to get to know about Yuii.",
+            "message_text": "Click the button below to get to know about Taiga.",
             "thumb_urL": "https://telegra.ph/file/145c818a6b4e5bc92765d.jpg",
             "keyboard": ".about ",
         },
@@ -109,7 +110,7 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
     """Handle the inline query."""
     bot = context.bot
     query = update.inline_query.query
-    log.info(query)
+    LOGGER.info(query)
     user_id = update.effective_user.id
 
     try:
@@ -145,7 +146,7 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
         text += f"\n\nThis person is my master"
         nation_level_present = True
     elif user.id in DEV_USERS:
-        text += f"\n\nThis Person is a part of Yuii Chan Club"
+        text += f"\n\nThis Person is a part of Taiga Chan Club"
         nation_level_present = True
     elif user.id in SUDO_USERS:
         text += f"\n\nThis person is a sudo user"
@@ -161,7 +162,7 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
         nation_level_present = True
 
     if nation_level_present:
-        text += '[<a href="https://t.me/yuiichansupport/3655">?</a>]'.format(
+        text += '[<a href="https://t.me/TaigaAisakasupport/3655">?</a>]'.format(
             bot.username
         )
 
@@ -183,7 +184,7 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
             [
                 InlineKeyboardButton(
                     text="Report Error",
-                    url=f"https://t.me/yuiichansupport",
+                    url=f"https://t.me/senseisupportgroup",
                 ),
                 InlineKeyboardButton(
                     text="Search again",
@@ -214,8 +215,8 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
     user = context.bot.get_chat(user_id)
     sql.update_user(user.id, user.username)
     about_text = f"""
-    Yuii (@{context.bot.username})
-    Maintained by ok
+    Taiga (@{context.bot.username})
+    Maintained by Sensei Network
     Built with ❤️ using python-telegram-bot v{str(__version__)}
     Running on Python {python_version()}
     """
@@ -225,7 +226,7 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
             [
                 InlineKeyboardButton(
                     text="Support",
-                    url=f"https://t.me/yuiichansupport",
+                    url=f"https://t.me/Senseisupportgroup",
                 )
             ]
         ]
@@ -234,7 +235,7 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
     results.append(
         InlineQueryResultArticle(
             id=str(uuid4()),
-            title=f"About Yuii (@{context.bot.username})",
+            title=f"About Taiga (@{context.bot.username})",
             input_message_content=InputTextMessageContent(
                 about_text, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
             ),
@@ -370,7 +371,7 @@ def media_query(query: str, update: Update, context: CallbackContext) -> None:
                 [
                     InlineKeyboardButton(
                         text="Report error",
-                        url="t.me/yuiichansupport",
+                        url="t.me/TaigaAisakasupport",
                     ),
                     InlineKeyboardButton(
                         text="Search again",
