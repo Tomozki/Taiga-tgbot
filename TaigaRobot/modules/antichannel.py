@@ -44,4 +44,4 @@ def eliminate_channel(update: Update, context: CallbackContext):
 def helps(chat):
     return gs(chat, "antichannel_help")
 
-__mod_name__ = "Anti-Channel"
+__mod_name__ = "Channel"
