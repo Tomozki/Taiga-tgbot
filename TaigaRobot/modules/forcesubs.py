@@ -178,6 +178,6 @@ def config(client, message):
         )
 
 def helps(chat):
-    return gs(chat, "fsub_feds_help")
+    return gs(chat, "feds_help")
 
 __mod_name__ = "F-Sub/Feds"
