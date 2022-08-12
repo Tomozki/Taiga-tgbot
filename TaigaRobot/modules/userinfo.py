@@ -39,7 +39,7 @@ from TaigaRobot.modules.disable import DisableAbleCommandHandler
 from TaigaRobot.modules.sql.global_bans_sql import is_user_gbanned
 from TaigaRobot.modules.sql.afk_sql import is_afk, set_afk
 from TaigaRobot.modules.sql.users_sql import get_user_num_chats
-from TaigaRobot.modules.helper_funcs.chat_status import sudo_plus
+from TaigaRobot.modules.helper_funcs.chat_status import dev_plus
 from TaigaRobot.modules.helper_funcs.extraction import extract_user
 from TaigaRobot import telethn
 
@@ -442,7 +442,7 @@ def set_about_me(update: Update, context: CallbackContext):
                 ),
             )
 
-@sudo_plus
+@dev_plus
 def stats(update, context):
     '''uptime = datetime.datetime.fromtimestamp(boot_time()).strftime("%Y-%m-%d %H:%M:%S")
     botuptime = get_readable_time((time.time() - StartTime))
