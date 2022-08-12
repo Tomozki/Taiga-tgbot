@@ -267,8 +267,6 @@ def info(update: Update, context: CallbackContext):
 
     if user.username:
         text += f"\n￫ Username: @{html.escape(user.username)}"
-     
-        text += f"\n￫ No. of pfp: {html.escape(user.dc_id)}"
 
     text += f"\n￫ Userlink: {mention_html(user.id, 'Sensei')}"
 
