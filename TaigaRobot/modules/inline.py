@@ -22,12 +22,13 @@ from telegram.utils.helpers import mention_html
 import TaigaRobot.modules.sql.users_sql as sql
 from TaigaRobot import (
     dispatcher,
-    OWNER_ID,
-    SUDO_USERS,
-    SUPPORT_USERS,
     DEV_USERS,
-    TIGER_USERS,
-    WHITELIST_USERS,
+    OWNER_ID,
+    DRAGONS,
+    SUPPORT_CHAT,
+    DEMONS,
+    TIGERS,
+    WOLVES,
     sw,
     log,
 )
