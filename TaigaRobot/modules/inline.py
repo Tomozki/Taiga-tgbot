@@ -30,7 +30,6 @@ from TaigaRobot import (
     TIGERS,
     WOLVES,
     sw,
-    log,
 )
 from TaigaRobot.modules.helper_funcs.misc import article
 
