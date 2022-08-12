@@ -74,7 +74,6 @@ def inlinequery(update: Update, _) -> None:
     ]
 
     inline_funcs = {
-        ".spb": spb,
         ".info": inlineinfo,
         ".about": about,
         ".anilist": media_query,
