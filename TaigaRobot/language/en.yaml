@@ -317,24 +317,31 @@ MARKDOWN_HELP_TEXT_2: |
     /save test This is a markdown test. _italics_, *bold*, code,
     [URL](example.com) [button](buttonurl:github.com)
     [button2](buttonurl://google.com:same)
-fsub_feds_help: |
-    ──「 Fed Help 」──
+feds_help: |
+    Ah, group management. Everything is fun, until the spammer starts entering your group, and you have to block it. Then you need to start banning more, and more, and it hurts.
+    But then you have many groups, and you don't want this spammer to be in one of your groups - how can you deal? Do you have to manually block it, in all your groups?
 
-    ❑ /anime <anime>: returns information about the anime.
-    ❑ /whatanime: returns source of anime when replied to photo or gif.
-    ❑ /character <character>: returns information about the character.
-    ❑ /manga <manga>: returns information about the manga.
-    ❑ /user <user>: returns information about a MyAnimeList user.
-    ❑ /upcoming: returns a list of new anime in the upcoming seasons.
-    ❑ /airing <anime>: returns anime airing info.
-    ❑ /whatanime <anime>: reply to gif or photo.
-    ❑ /kaizoku <anime>: search an anime on animekaizoku.com
-    ❑ /kayo <anime>: search an anime on animekayo.com
+    No longer! With Federation, you can make a ban in one chat overlap with all other chats.
+    You can even designate admin federations, so your trusted admin can ban all the chats you want to protect.
 
-    ──「 Anime Quotes 」──
+    *Commands Available*:
 
-    ❑ /animequotes: for anime quotes randomly as photos.
-    ❑ /quote: send quotes randomly as text
+     ❑ /newfed <fedname>: Create a new Federation with the name given. Users are only allowed to have one Federation. This method can also be used to rename the Federation. (max. 64 characters)
+     ❑ /delfed: Delete your Federation, and any information related to it. Will not cancel blocked users.
+     ❑ /fedinfo <FedID>: Information about the specified Federation.
+     ❑ /joinfed <FedID>: Join the current chat to the Federation. Only chat owners can do this. Every chat can only be in one Federation.
+     ❑ /leavefed <FedID>: Leave the Federation given. Only chat owners can do this.
+     ❑ /fpromote <user>: Promote Users to give fed admin. Fed owner only.
+     ❑ /fdemote <user>: Drops the User from the admin Federation to a normal User. Fed owner only.
+     ❑ /fban <user>: Prohibits users from all federations where this chat takes place, and executors have control over.
+     ❑ /unfban <user>: Cancel User from all federations where this chat takes place, and that the executor has control over.
+     ❑ /setfrules: Arrange Federation rules.
+     ❑ /frules: See Federation regulations.
+     ❑ /chatfed: See the Federation in the current chat.
+     ❑ /fedadmins: Show Federation admin.
+     ❑ /fbanlist: Displays all users who are victimized at the Federation at this time.
+     ❑ /fednotif <on / off>: Federation settings not in PM when there are users who are fban / unfban.
+     ❑ /fedchats: Get all the chats that are connected in the Federation.
 FED_OWNER_HELP: |
     ──「 Feds 」──
 
@@ -475,39 +482,12 @@ WELCOME_MUTE_HELP_TEXT: |
     "  ❑ `/welcomemute off`*:* turns off welcomemute.\n"
     "*Note:* Strong mode kicks a user from the chat if they dont verify in 120seconds. They can always rejoin though"
 info_and_afk_help: |
-    ──「 Info and AFK 」──
+      ❑ /setbio <text>*:* while replying, will save another user's bio
+      ❑ /bio*:* will get your or another user's bio. This cannot be set by yourself.
+      ❑ /setme <text>*:* will set your info
+      ❑ /me*:* will get your or another user's info
+      ❑ /info:** will get your info
 
-    *ID:*
-    ❂ /id*:* get the current group id. If used by replying to a message, gets that user's id.
-    ❂ /gifid*:* reply to a gif to me to tell you its file ID.
-    
-    *Self addded information:* 
-    ❂ /setme <text>*:* will set your info
-    ❂ /me*:* will get your or another user's info.
-    Examples:
-    ❂ /setme I am a wolf.
-    ❂ /me @username(defaults to yours if no user specified)
-    
-    *Information others add on you:* 
-    ❂ /bio*:* will get your or another user's bio. This cannot be set by yourself.
-    ❂ /setbio <text>*:* while replying, will save another user's bio 
-    Examples:
-    ❂ /bio @username(defaults to yours if not specified).
-    ❂ /setbio This user is a wolf (reply to the user)
-    
-    *Overall Information about you:*
-    ❂ /info*:* get information about a user. 
-    
-    *json Detailed info:*
-    ❂ /json*:* Get Detailed info about any message.
-    
-    *AFk:*
-    When marked as AFK, any mentions will be replied to with a message stating that you're not available!
-    ❂ /afk <reason>*:* Mark yourself as AFK.
-      - brb <reason>: Same as the afk command, but not a command. 
-      
-    *What is that health thingy?*
-    Come and see [HP System explained](https://t.me/KennedyProject/44)
 locks_help: |
     ──「 Locks 」──
 
