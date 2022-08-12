@@ -7,8 +7,8 @@ import time
 import uuid
 from io import BytesIO
 
-import RiasGremoryBot.modules.sql.feds_sql as sql
-from RiasGremoryBot import (
+import TaigaRobot.modules.sql.feds_sql as sql
+from TaigaRobot import (
     EVENT_LOGS,
     LOGGER,
     SUPPORT_CHAT,
@@ -18,15 +18,15 @@ from RiasGremoryBot import (
     WOLVES,
     dispatcher,
 )
-from RiasGremoryBot.modules.disable import DisableAbleCommandHandler
-from RiasGremoryBot.modules.helper_funcs.alternate import send_message
-from RiasGremoryBot.modules.helper_funcs.chat_status import is_user_admin
-from RiasGremoryBot.modules.helper_funcs.extraction import (
+from TaigaRobot.modules.disable import DisableAbleCommandHandler
+from TaigaRobot.modules.helper_funcs.alternate import send_message
+from TaigaRobot.modules.helper_funcs.chat_status import is_user_admin
+from TaigaRobot.modules.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from RiasGremoryBot.modules.helper_funcs.string_handling import markdown_parser
+from TaigaRobot.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
@@ -42,7 +42,7 @@ from telegram.ext import (
     run_async,
 )
 from telegram.utils.helpers import mention_html, mention_markdown
-from RiasGremoryBot.modules.language import gs
+from TaigaRobot.modules.language import gs
 
 # Hello bot owner, I spended for feds many hours of my life, Please don't remove this if you still respect MrYacha and peaktogoo and AyraHikari too
 # Federation by MrYacha 2018-2019
