@@ -192,7 +192,7 @@ if is_module_loaded(FILENAME):
     def helps(chat):
         return gs(chat, "logchannel_help")
 
-    __mod_name__ = "Log Channel​"
+    __mod_name__ = "Set Log​"
 
     LOG_HANDLER = CommandHandler("logchannel", logging, run_async=True)
     SET_LOG_HANDLER = CommandHandler("setlog", setlog, run_async=True)
