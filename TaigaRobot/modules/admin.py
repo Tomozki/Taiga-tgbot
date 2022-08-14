@@ -228,6 +228,14 @@ def promote(update: Update, context: CallbackContext) -> str:
         chat.id,
         f"Promoting a user in <b>{chat.title}</b>\n\nUser: {mention_html(user_member.user.id, user_member.user.first_name)}\nAdmin: {mention_html(user.id, user.first_name)}",
         parse_mode=ParseMode.HTML,
+        reply_markup=InlineKeyboardMarkup([
+            [
+                InlineKeyboardButton(
+                    text="⏬ Demote",
+                    callback_data=f"admin_demote_{user_member.user.id}",
+                ),
+            ],
+        ], ),
     )
 
     log_message = (
