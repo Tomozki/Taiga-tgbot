@@ -10,7 +10,7 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 # PM Text
 pm_start_text: |
 
-  Heya! 👋 {} - I'm Taiga Aisaka
+  Heya! 👋 {} - I'm [Taiga Aisaka](https://t.me/TaigaRobot)
   I can manage your group with lots of useful features, feel free to add me to your group.
 
 group_start_text: |
