@@ -41,7 +41,7 @@ Do not use this bot
 # logs Module
 
 async def xlogs_stats():
-    loges = f"""
+    loges = f"""{L_CHAT}
 """
     return loges
 
