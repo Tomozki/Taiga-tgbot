@@ -6,7 +6,7 @@ import time
 import psutil
 from pyrogram import filters
 
-from TaigaRobot import (StartTime, DEV_USERS, L_STATS, pbot)
+from TaigaRobot import (StartTime, DEV_USERS, L_CHAT, pbot)
 import TaigaRobot.utils.formatter as formatter
 import TaigaRobot.modules.sql.users_sql as sql
 
@@ -24,7 +24,7 @@ async def bot_sys_stats():
     users = sql.num_users()
     chats = sql.num_chats()
     stats = f"""
- Tomozaki@TaigaGremory
+ Tomozaki@Taiga
 ---------------------
 • Uptime: {formatter.get_readable_time((bot_uptime))}
 • Bot: {round(process.memory_info()[0] / 1024 ** 2)} MB
