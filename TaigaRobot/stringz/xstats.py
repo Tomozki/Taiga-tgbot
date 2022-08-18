@@ -14,7 +14,7 @@ import TaigaRobot.modules.sql.users_sql as sql
 
 
 # Stats Module
-
+'''
 async def bot_sys_stats():
     bot_uptime = int(time.time() - StartTime)
     cpu = psutil.cpu_percent()
@@ -37,7 +37,7 @@ async def bot_sys_stats():
 Do not use this bot
 """
     return stats
-
+'''
 # logs Module
 
 async def xlogs_stats():
