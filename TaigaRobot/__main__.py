@@ -261,7 +261,7 @@ async def stats_callback(_, CallbackQuery):
     
     #testingloges
    
-    @pbot.on_callback_query(filters.regex("loges_callback"))
+@pbot.on_callback_query(filters.regex("loges_callback"))
 async def loges_callback(_, CallbackQuery):
     text = await xlogs_stats()
     await pbot.answer_callback_query(CallbackQuery.id, text, show_alert=True)
