@@ -119,6 +119,7 @@ if ENV:
     WALL_API = os.environ.get("WALL_API", None)
     KAZUHA_ID = os.environ.get("KAZUHA_ID", 5358835742)
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
+    L_CHAT = os.environ.get("L_CHAT", None)
     SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", None)
     SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
     LASTFM_API_KEY = os.environ.get("LASTFM_API_KEY", None)
@@ -205,6 +206,7 @@ else:
     TIME_API_KEY = Config.TIME_API_KEY
     WALL_API = Config.WALL_API
     SUPPORT_CHAT = Config.SUPPORT_CHAT
+    L_CHAT = Config.L_CHAT
     SPAMWATCH_SUPPORT_CHAT = Config.SPAMWATCH_SUPPORT_CHAT
     SPAMWATCH_API = Config.SPAMWATCH_API
     SESSION_STRING = Config.SESSION_STRING
