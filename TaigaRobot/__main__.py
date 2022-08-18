@@ -14,12 +14,14 @@ from typing import Optional
 from telegram import __version__ as peler
 from platform import python_version as memek
 from TaigaRobot.stringz.xstats import bot_sys_stats
+from TaigaRobot.stringz.xstats import xlogs_stats
 from TaigaRobot import (
     ALLOW_EXCL,
     ALIVE_MEDIA,
     PM_MEDIA,
     G_MEDIA,
     H_MEDIA,
+    L_CHAT,
     CERT_PATH,
     DONATION_LINK,
     LOGGER,
