@@ -259,6 +259,13 @@ async def stats_callback(_, CallbackQuery):
     text = await bot_sys_stats()
     await pbot.answer_callback_query(CallbackQuery.id, text, show_alert=True)
     
+    #testingloges
+   
+    @pbot.on_callback_query(filters.regex("loges_callback"))
+async def loges_callback(_, CallbackQuery):
+    text = await xlogs_stats()
+    await pbot.answer_callback_query(CallbackQuery.id, text, show_alert=True)
+    
 def error_handler(update, context):
     """Log the error and send a telegram message to notify the developer."""
     # Log the error before we do anything else, so we can see it even if something breaks.
@@ -844,9 +851,7 @@ def main():
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                       InlineKeyboardButton(
-                             text="Updates",
-                             url="https://t.me/SenseiUpdates")
+                       InlineKeyboardButton(text="Change Logs", callback_data="loges_callback")
                      ]
                 ]
             ),
