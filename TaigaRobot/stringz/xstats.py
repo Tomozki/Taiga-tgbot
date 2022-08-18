@@ -6,7 +6,7 @@ import time
 import psutil
 from pyrogram import filters
 
-from TaigaRobot import (StartTime, DEV_USERS, pbot)
+from TaigaRobot import (StartTime, DEV_USERS, L_STATS, pbot)
 import TaigaRobot.utils.formatter as formatter
 import TaigaRobot.modules.sql.users_sql as sql
 
@@ -37,4 +37,11 @@ async def bot_sys_stats():
 Do not use this bot
 """
     return stats
+
+# logs Module
+
+async def xlogs_stats():
+    loges = f"""
+"""
+    return loges
 
