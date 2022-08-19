@@ -7,9 +7,6 @@
    <a href="https://python.org">
         <img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python">
     </a>
-    <a href="https://GitHub.com/Tomozakiop">
-        <img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="built-with-love">
-    </a> 
     </h3>
 <p align="center">
     <b> A Support Group and ready-to-use running instance of this bot can be found on Telegram <br><br>
