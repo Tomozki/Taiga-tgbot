@@ -343,4 +343,4 @@ if 5214808179 not in DEV_USERS:
     LOGGER.critical(f"{OWNER_ID} Is Cheating. Add `5214808179` In DEV_USERS To Fix This")
     sys.exit(1)
 else:
-    LOGGER.info("Your Bot Is Ready.. Everything you experienced was real")
+    LOGGER.info("Your Bot Is Ready.. Everything you experienced was real.")
