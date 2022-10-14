@@ -37,6 +37,7 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     ALLOW_CHATS = True
+    MONGO_DB_URI = "as"
     URL = None
     SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
