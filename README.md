@@ -23,7 +23,7 @@
 <a href="https://github.com/TomozakiOp/TaigaRobot/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-GPLv3-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://makeapullrequest.com"> <img src="https://img.shields.io/badge/PRs-Welcome-yellow?style=for-the-badge" alt="PRs" /></a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Made%20With-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://GitHub.com/TomozakiOp/TaigaRobot"> <img src="https://img.shields.io/badge/Maintained-Yes-Blue?style=for-the-badge" alt="Maintenance" /> </a>
+<a href="https://GitHub.com/TomozakiOp/TaigaRobot"> <img src="https://img.shields.io/badge/Maintained-No-Blue?style=for-the-badge" alt="Maintenance" /> </a>
 <a href="https://docs.sqlalchemy.org/en/14/"> <img src="https://img.shields.io/badge/SQL%20Alchemy-1.4.29-green?style=for-the-badge" alt="SQL Alchemy" /> </a>
 <a href="https://python-telegram-bot.org"> <img src="https://img.shields.io/badge/PTB-13.11-lightgrey?style=for-the-badge&logo=github" alt="Python Telegram Bot" /> </a>
 <a href="https://docs.telethon.dev"> <img src="https://img.shields.io/badge/Telethon-1.23.0-red?style=for-the-badge&logo=github" alt="Telethon" /> </a>
@@ -38,7 +38,30 @@
 </h2>    
 
 <p align="center">
-<a href="https://telegram.dog/RogueSensei"> <img src="https://img.shields.io/badge/Rogue%20Sensei-User-green?style=for-the-badge&logo=telegram" alt="Rogue Sensei" /> </a>
-<a href="https://t.me/SenseiSupportGroup"> <img src="https://img.shields.io/badge/Support-Chat-green?style=for-the-badge&logo=telegram" alt="Support Chat" /> </a>
-<a href="https://t.me/SenseiUpdates"> <img src="https://img.shields.io/badge/Update-Channel-green?style=for-the-badge&logo=telegram" alt="Update Channel" /> </a>
+<img src="https://img.shields.io/badge/Support-Chat-green?style=for-the-badge&logo=telegram" alt="Support Chat" /> </a>
+<a href="https://t.me/Zeeknews> <img src="https://img.shields.io/badge/Update-Channel-green?style=for-the-badge&logo=telegram" alt="Update Channel" /> </a>
 </p>
+<h2 align="center">
+───「 CREDITS 」───
+</h2>   
+<p align="center">
+<a href="https://telegram.dog/Tmozki"> <img src="https://img.shields.io/badge/Tomozaki-Telegram-green?style=for-the-badge&logo=telegram" alt="Rogue Sensei" /> </a>
+<a href="https://t.me
+<a href="https://github.com/shiinobu"> <img src="https://img.shields.io/badge/Vain-Github-magenta?style=for-the-badge&logo=github" alt="Vain Github" /> </a>
+<a href="https://github.com/kennedy-ex"> <img src="https://img.shields.io/badge/Sena-Github-magenta?style=for-the-badge&logo=github" alt="Sena Github" /> </a>
+<a href="https://github.com/Aryazakaria01"> <img src="https://img.shields.io/badge/Arya-Github-magenta?style=for-the-badge&logo=github" alt="Arya Github" /> </a>
+<a href="https://github.com/zxcskyy"> <img src="https://img.shields.io/badge/Kyy-Github-magenta?style=for-the-badge&logo=github" alt="Kyy Github" /> </a>
+</p>
+
+```
+- ShinobuProject
+- SiestaRobot
+- EmikoRobot
+- YoneRobot
+- SaitamaRobot 
+- TheRealPhoenixBot
+- DaisyX 
+- WilliamButcherBot
+```
+
+
