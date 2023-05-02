@@ -103,8 +103,8 @@ if ENV:
     LOAD = os.environ.get("LOAD", "").split()
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-    TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
-    TEMP_DOWNLOAD_LOC = os.environ.get("TEMP_DOWNLOAD_LOC" , None)
+    #TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
+    #TEMP_DOWNLOAD_LOC = os.environ.get("TEMP_DOWNLOAD_LOC" , None)
     OPENWEATHERMAP_ID = os.environ.get("OPENWEATHERMAP_ID", None)
     VIRUS_API_KEY = os.environ.get("VIRUS_API_KEY", None)
     NO_LOAD = os.environ.get("NO_LOAD", "translation").split()
@@ -191,7 +191,7 @@ else:
     ARQ_API_URL = Config.ARQ_API_URL
     DONATION_LINK = Config.DONATION_LINK
     LOAD = Config.LOAD
-    TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
+    #TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
     OPENWEATHERMAP_ID = Config.OPENWEATHERMAP_ID
     NO_LOAD = Config.NO_LOAD
     HEROKU_API_KEY = Config.HEROKU_API_KEY
@@ -232,25 +232,25 @@ DEV_USERS.add(KAZUHA_ID)
 DEV_USERS.add(OWNER_ID)
 REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
 
-try:
+#try:
 
-    REDIS.ping()
+  #  REDIS.ping()
 
-    LOGGER.info("[SENSEI]: Connecting To Sensei Redis Database")
+  #  LOGGER.info("[SENSEI]: Connecting To Sensei Redis Database")
 
-except BaseException:
+#except BaseException:
 
-    raise Exception(
-        "[REDIS ERROR]: Your SENSEI Redis Database Is Not Alive, Please Check Again."
-    )
+#    raise Exception(
+  #      "[REDIS ERROR]: Your SENSEI Redis Database Is Not Alive, Please Check Again."
+#    )
 
-finally:
+#finally:
 
-    REDIS.ping()
+ #   REDIS.ping()
 
-    LOGGER.info(
-        "[SENSEI]: Connection To The Redis Database Established Successfully!"
-    )
+#    LOGGER.info(
+#        "[SENSEI]: Connection To The Redis Database Established Successfully!"
+#    )
 
 
 
