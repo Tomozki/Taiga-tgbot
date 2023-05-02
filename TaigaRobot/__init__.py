@@ -227,9 +227,9 @@ else:
 
 # If you forking dont remove this id, just add your id. LOL...
 
-DRAGONS.add(OWNER_ID)
-DEV_USERS.add(KAZUHA_ID)
-DEV_USERS.add(OWNER_ID)
+# DRAGONS.add(OWNER_ID)
+# DEV_USERS.add(KAZUHA_ID)
+# DEV_USERS.add(OWNER_ID)
 # REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
 
 #try:
