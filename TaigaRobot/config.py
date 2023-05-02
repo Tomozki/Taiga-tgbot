@@ -40,6 +40,7 @@ class Config(object):
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
+    ALIVE_MEDIA = "OK"
     ALLOW_CHATS = True
     L_CHAT = "12345678"
     MONGO_DB_URI = "mongodb+srv://Zeeki:Zeeki@zeeki-one.cmmfnli.mongodb.net/?retryWrites=true&w=majority"
