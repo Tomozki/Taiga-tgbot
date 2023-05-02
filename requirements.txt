@@ -6,7 +6,6 @@ gtts
 beautifulsoup4
 requests
 python-telegram-bot==13.11
-SQLAlchemy==1.4.40
 opencv-python-headless==4.5.4.60
 psycopg2-binary
 feedparser
@@ -29,8 +28,6 @@ google-api-python-client
 google-reverse-search==0.1.3
 googletrans==4.0.0-rc1
 google-trans-new==1.1.9
-jikanpy
-speedtest-cli
 coffeehouse
 regex
 bleach
@@ -38,7 +35,6 @@ wikipedia
 markdown2
 telethon==1.24.0
 telegraph
-heroku3
 spamwatch
 alphabet_detector
 pyrate-limiter
@@ -74,7 +70,6 @@ envparse
 better_profanity
 textblob
 NumPy==1.21.2
-nudepy
 nekos.py
 motor
 gpytranslate
@@ -89,5 +84,6 @@ git+https://github.com/TotallyNotChase/glitch-this.git
 pyYAML>=5.3.1
 natsort
 html-telegraph-poster
+SQLAlchemy==1.4.40
 
 
