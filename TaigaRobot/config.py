@@ -14,15 +14,15 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
+    API_ID = 19704307  # integer value, dont use ""
+    API_HASH = "031ab037968003ac20ec180d9ec3e07b"
     ARQ_API = "hoi"
     ARQ_API_KEY = "okoko"
     ARQ_API_URL = "okoko"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "6254865362:AAHq3xj36h82o34CRKX5t5hDFV4lLD-TNmc"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 945137470  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "saint_foire"
-    SUPPORT_CHAT = "machinaxsupport"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "zeekihq"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001180007354
     )  # Prints any new group the bot is added to, prints just the name and ID.
@@ -40,7 +40,7 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     ALLOW_CHATS = True
-    MONGO_DB_URI = "as"
+    MONGO_DB_URI = "mongodb+srv://Zeeki:Zeeki@zeeki-one.cmmfnli.mongodb.net/?retryWrites=true&w=majority"
     URL = None
     SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
