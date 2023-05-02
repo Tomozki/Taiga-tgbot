@@ -41,6 +41,7 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     ALLOW_CHATS = True
+    L_CHAT = "12345678"
     MONGO_DB_URI = "mongodb+srv://Zeeki:Zeeki@zeeki-one.cmmfnli.mongodb.net/?retryWrites=true&w=majority"
     URL = None
     SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
