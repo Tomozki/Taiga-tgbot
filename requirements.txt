@@ -69,7 +69,7 @@ envparse
 #profanity (Credits to Julia)
 better_profanity
 textblob
-NumPy==1.21.2
+NumPy==1.22.0
 nekos.py
 motor
 gpytranslate
