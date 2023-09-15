@@ -3,14 +3,12 @@ import logging
 import os
 import sys
 import json
-import asyncio
 import time
 #import spamwatch
 import telegram.ext as tg
-
 from inspect import getfullargspec
 from aiohttp import ClientSession
-from Python_ARQ import ARQ
+#from Python_ARQ import ARQ
 from telethon import TelegramClient
 from telethon.sessions import MemorySession
 from redis import StrictRedis
