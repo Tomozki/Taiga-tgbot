@@ -214,6 +214,7 @@ else:
     G_MEDIA = Config.G_MEDIA
     H_MEDIA = Config.H_MEDIA
     BOT_USERNAME = Config.BOT_USERNAME
+    BOT_ID =config.BOT_ID
     # STRING_SESSION = Config.STRING_SESSION
     # LASTFM_API_KEY = Config.LASTFM_API_KEY
     # CF_API_KEY = Config.CF_API_KEY
