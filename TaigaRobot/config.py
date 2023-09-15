@@ -41,6 +41,10 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     ALIVE_MEDIA = "OK"
+    BOT_USERNAME = "@yourbot"
+    H_MEDIA = "telegra.ph/avb.img"
+    G_MEDIA = "link"
+    PM_MEDIA = "pm image"
     ALLOW_CHATS = True
     L_CHAT = "12345678"
     MONGO_DB_URI = "" #"mongodb+srv://Zeeki:Zeeki@zeeki-one.cmmfnli.mongodb.net/?retryWrites=true&w=majority"
