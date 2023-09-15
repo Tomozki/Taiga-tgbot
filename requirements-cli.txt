@@ -1,4 +1,5 @@
 aiohttp
+nudepy
 asyncio
 future==0.18.3
 emoji
