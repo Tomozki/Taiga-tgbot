@@ -1,34 +1,19 @@
-from gpytranslate import Translator
-from telegram.ext import CommandHandler, CallbackContext
-from telegram import (
-    Message,
-    Chat,
-    User,
-    ParseMode,
-    Update,
-    InlineKeyboardMarkup,
-    InlineKeyboardButton,
-)
-from TaigaRobot import dispatcher, pbot
-from pyrogram import filters
+from telegram import ParseMode, Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.ext import CallbackContext
+
+from gpytranslate import SyncTranslator
+
+from TaigaRobot import dispatcher
 from TaigaRobot.modules.disable import DisableAbleCommandHandler
-from TaigaRobot.modules.language import gs
 
 
-def helps(chat):
-    return gs(chat, "translator_help")
+trans = SyncTranslator()
 
-__mod_name__ = "Translator"
-
-
-trans = Translator()
-
-
-@pbot.on_message(filters.command(["tl", "tr"]))
-async def translate(_, message: Message) -> None:
+def totranslate(update: Update, context: CallbackContext) -> None:
+    message = update.effective_message
     reply_msg = message.reply_to_message
     if not reply_msg:
-        await message.reply_text("Reply to a message to translate it!")
+        message.reply_text("Reply to a message to translate it!")
         return
     if reply_msg.caption:
         to_translate = reply_msg.caption
@@ -40,19 +25,17 @@ async def translate(_, message: Message) -> None:
             source = args.split("//")[0]
             dest = args.split("//")[1]
         else:
-            source = await trans.detect(to_translate)
+            source = trans.detect(to_translate)
             dest = args
     except IndexError:
-        source = await trans.detect(to_translate)
+        source = trans.detect(to_translate)
         dest = "en"
-    translation = await trans(to_translate, sourcelang=source, targetlang=dest)
-    reply = (
-        f"<b>Translated from {source} to {dest}</b>:\n"
+    translation = trans(to_translate,
+                              sourcelang=source, targetlang=dest)
+    reply = f"<b>Translated from {source} to {dest}</b>:\n" \
         f"<code>{translation.text}</code>"
-    )
 
-    await message.reply_text(reply, parse_mode="html")
-
+    message.reply_text(reply, parse_mode=ParseMode.HTML)
 
 def languages(update: Update, context: CallbackContext) -> None:
     update.effective_message.reply_text(
@@ -62,15 +45,22 @@ def languages(update: Update, context: CallbackContext) -> None:
                 [
                     InlineKeyboardButton(
                         text="Language codes",
-                        url="https://telegra.ph/Lang-Codes-03-19-3",
-                    ),
+                        url="https://telegra.ph/Lang-Codes-03-19-3"
+                        ),
                 ],
             ],
-            disable_web_page_preview=True,
-        ),
+        disable_web_page_preview=True
     )
+        )
 
+mod_name = "Translator"
 
-LANG_HANDLER = DisableAbleCommandHandler("langs", languages, run_async=True)
+TRANSLATE_HANDLER = DisableAbleCommandHandler(["tr", "tl"], totranslate, run_async=True)
+LANGUAGES_HANDLER = DisableAbleCommandHandler(["langs", "languages"], languages, run_async=True)
 
-dispatcher.add_handler(LANG_HANDLER)
+dispatcher.add_handler(TRANSLATE_HANDLER)
+dispatcher.add_handler(LANGUAGES_HANDLER)
+
+mod_name = "Translator"
+command_list = ["tr", "tl", "langs", "languages"]
+handlers = [TRANSLATE_HANDLER, LANGUAGES_HANDLER]
