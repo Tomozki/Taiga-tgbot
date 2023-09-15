@@ -43,6 +43,7 @@ class Config(object):
     ALIVE_MEDIA = "OK"
     BOT_USERNAME = "@yourbot"
     H_MEDIA = "telegra.ph/avb.img"
+    BOT_ID =   
     G_MEDIA = "link"
     PM_MEDIA = "pm image"
     ALLOW_CHATS = True
