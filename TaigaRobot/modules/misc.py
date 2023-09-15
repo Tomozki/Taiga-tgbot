@@ -123,18 +123,15 @@ ECHO_HANDLER = DisableAbleCommandHandler(
     "echo", echo, filters=Filters.chat_type.groups, run_async=True)
 MD_HELP_HANDLER = CommandHandler("markdownhelp", markdown_help, run_async=True)
 WIKI_HANDLER = DisableAbleCommandHandler("wiki", wiki)
-WALLPAPER_HANDLER = DisableAbleCommandHandler("wall", wall, run_async=True)
 
 dispatcher.add_handler(ECHO_HANDLER)
 dispatcher.add_handler(MD_HELP_HANDLER)
 dispatcher.add_handler(WIKI_HANDLER)
-dispatcher.add_handler(WALLPAPER_HANDLER)
 
 __mod_name__ = "Extras"
-__command_list__ = ["id", "echo", "wiki", "wall"]
+__command_list__ = ["id", "echo", "wiki"]
 __handlers__ = [
     ECHO_HANDLER,
     MD_HELP_HANDLER,
     WIKI_HANDLER,
-    WALLPAPER_HANDLER,
 ]
