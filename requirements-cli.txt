@@ -38,7 +38,7 @@ telethon==1.24.0
 telegraph
 #spamwatch
 alphabet_detector
-pyrate-limiter
+pyrate-limiter==2.8.1
 cachetools
 ujson
 pretty_errors
