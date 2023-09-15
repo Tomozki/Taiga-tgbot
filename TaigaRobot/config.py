@@ -19,7 +19,7 @@ class Config(object):
     ARQ_API = "hoi"
     ARQ_API_KEY = "okoko"
     ARQ_API_URL = "okoko"
-    TOKEN = "6254865362:AAHq3xj36h82o34CRKX5t5hDFV4lLD-TNmc"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "6068940151:AAFIuXSa3z-r5aejRnlGHZ1V5xwTzmdrD1s"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 945137470  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "saint_foire"
     SUPPORT_CHAT = "zeekihq"  # Your own group for support, do not add the @
@@ -34,8 +34,8 @@ class Config(object):
     )  # Prints information Error
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://kwzssizt:QQVjmnJsftOrq2V2FKkrScuGa__K8QQq@lallah.db.elephantsql.com/kwzssizt"  # needed for any database modules
-    DATABASE_URL = "postgres://kwzssizt:QQVjmnJsftOrq2V2FKkrScuGa__K8QQq@lallah.db.elephantsql.com/kwzssizt"
+    SQLALCHEMY_DATABASE_URI = "postgresql://wlywacfh:UGnK09rXIwWrgh5l9O0Okk-dieKiXpjP@raja.db.elephantsql.com/wlywacfh"  # needed for any database modules
+    DATABASE_URL = "postgresql://wlywacfh:UGnK09rXIwWrgh5l9O0Okk-dieKiXpjP@raja.db.elephantsql.com/wlywacfh"
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
@@ -43,7 +43,7 @@ class Config(object):
     ALIVE_MEDIA = "OK"
     ALLOW_CHATS = True
     L_CHAT = "12345678"
-    MONGO_DB_URI = "mongodb+srv://Zeeki:Zeeki@zeeki-one.cmmfnli.mongodb.net/?retryWrites=true&w=majority"
+    MONGO_DB_URI = "" #"mongodb+srv://Zeeki:Zeeki@zeeki-one.cmmfnli.mongodb.net/?retryWrites=true&w=majority"
     URL = None
     SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
