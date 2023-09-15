@@ -1,3 +1,5 @@
+aiohttp
+asyncio
 future
 emoji
 lxml
