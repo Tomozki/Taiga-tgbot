@@ -42,10 +42,10 @@ class Config(object):
     INFOPIC = True
     ALIVE_MEDIA = "OK"
     BOT_USERNAME = "@yourbot"
-    H_MEDIA = "telegra.ph/avb.img"
+    H_MEDIA = "https://graph.org/file/58cb9f399a5774eba83e7.jpg"
     BOT_ID = 123456
-    G_MEDIA = "link"
-    PM_MEDIA = "pm image"
+    G_MEDIA = "https://graph.org/file/58cb9f399a5774eba83e7.jpg"
+    PM_MEDIA = "https://graph.org/file/58cb9f399a5774eba83e7.jpg"
     ALLOW_CHATS = True
     L_CHAT = "12345678"
     MONGO_DB_URI = "" #"mongodb+srv://Zeeki:Zeeki@zeeki-one.cmmfnli.mongodb.net/?retryWrites=true&w=majority"
