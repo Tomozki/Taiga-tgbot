@@ -210,9 +210,9 @@ else:
     # SESSION_STRING = Config.SESSION_STRING
     INFOPIC = Config.INFOPIC
     ALIVE_MEDIA = Config.ALIVE_MEDIA
-    PM_MEDIA = Config.PM_MEDIA
-    G_MEDIA = Config.G_MEDIA
-    H_MEDIA = Config.H_MEDIA
+    #PM_MEDIA = Config.PM_MEDIA
+    #G_MEDIA = Config.G_MEDIA
+    #H_MEDIA = Config.H_MEDIA
     BOT_USERNAME = Config.BOT_USERNAME
     # STRING_SESSION = Config.STRING_SESSION
     # LASTFM_API_KEY = Config.LASTFM_API_KEY
