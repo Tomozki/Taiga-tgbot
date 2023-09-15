@@ -1,6 +1,6 @@
 aiohttp
 asyncio
-future
+#future
 emoji
 lxml
 wget
