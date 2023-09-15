@@ -3,7 +3,7 @@ from pyrogram import filters
 from aiohttp import ClientSession
 from Python_ARQ import ARQ
 
-from TaigaRobot import pbot as app, BOT_ID
+from TaigaRobot import pbot as app
 from TaigaRobot.utils.errors import capture_err
 from TaigaRobot.utils.permissions import adminsOnly
 from TaigaRobot.plugins.dbfunctions import (
