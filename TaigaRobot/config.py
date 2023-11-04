@@ -41,6 +41,10 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     ALIVE_MEDIA = "OK"
+    PM_MEDIA = Config.PM_MEDIA
+    G_MEDIA = Config.G_MEDIA
+    H_MEDIA = Config.H_MEDIA
+    BOT_USERNAME = Config.BOT_USERNAME
     ALLOW_CHATS = True
     L_CHAT = "12345678"
     MONGO_DB_URI = "mongodb+srv://Zeeki:Zeeki@zeeki-one.cmmfnli.mongodb.net/?retryWrites=true&w=majority"
